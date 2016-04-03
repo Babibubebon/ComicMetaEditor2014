@@ -8,8 +8,7 @@ http://mangaresearch.org
 Qtについては以下のサイトを参照ください。
 http://www.qt.io/
 
-使用しているアイコン類については、2016年4月1日時点で公開元をたどれないものも含まれていたため、
-GitHub公開用としては一旦削除します。
+本リポジトリではIconの画像を用意しておりません。
 利用される方はComicMetaEditor/iconディレクトリ下にあるアイコン画像(png形式)を置きかえてください。
 Config.png
 Document.png
