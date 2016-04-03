@@ -1,11 +1,10 @@
 # ComicMetaEditor2014
-�{�v���O������OpenSource�ł�Qt��p���č쐬����Ă��܂��B
-Qt�ɂ��Ă͈ȉ��̃T�C�g���Q�Ƃ��������B
+本プログラムはOpenSource版のQtを用いて作成されています。
+Qtについては以下のサイトを参照ください。
 http://www.qt.io/
 
-�g�p���Ă���A�C�R���ނɂ��ẮA���J�������ǂ�Ȃ����̂��܂܂�Ă������߁A
-GitHub���J�p�Ƃ��Ă͈�U�폜���܂��B
-���p��������ComicMetaEditor/icon�f�B���N�g�����ɂ���A�C�R���摜(png�`��)��u�������Ă��������B
+本リポジトリではIcon画像を用意しておりません。
+利用される方はComicMetaEditor/iconディレクトリ下にあるアイコン画像(png形式)を置きかえてください。
 Config.png
 Document.png
 Glass.png
@@ -19,12 +18,12 @@ Scroll.png
 ZoomIn.png
 ZoomOut.png
 
-�R�[�h�̃R�����g��Doxygen�œǂ߂�悤�ɋL�q���Ă���܂��B
-��{�I��UI��̖��߂͂قڑS��MainWindow�ɂĒ�`���Ă��܂��B
-Doxygen��MainWindow�N���X���邢MainWindow.h/.cpp�̍��ڂ����Q�Ƃ��������B
+コードのコメントはDoxygenで読めるように記述してあります。
+基本的なUI上の命令はほぼ全てMainWindowにて定義しています。
+DoxygenのMainWindowクラスあるいMainWindow.h/.cppの項目をご参照ください。
 
-��ʂ̍\����MainWindow.ui�ɂĒ�`���Ă��܂�
-��{�I�ȍ\���Ƃ��ẮAUI�ł̑���ɂ��private slots�̑Ή�������̂��Ă΂�A��������e��֐������s���Ă��܂��B
-����m�F�������͕ύX����������������ꍇ�ɂ́A���̑���ɑ�������slot����A�Ăяo����Ă���֐����m�F���Ă��������B
-�܂��A�O���t�B�b�N�X�r���[��łȂ��ꂽ�L�[�{�[�h����̎�舵���֘A�́ASl_GVKy_press, Sl_GVKy_release�ɒ�`����Ă��܂��B
-�V���[�g�J�b�g�L�[�Ɋ֘A���铮���ύX����ꍇ�ɂ͂���������Q�Ƃ��������B
+画面の構成はMainWindow.uiにて定義しています
+基本的な構造としては、UIでの操作によりprivate slotsの対応するものが呼ばれ、そこから各種関数を実行しています。
+動作確認もしくは変更したい処理がある場合には、その操作に相当するslotから、呼び出されている関数を確認してください。
+また、グラフィックスビュー上でなされたキーボード操作の取り扱い関連は、Sl_GVKy_press, Sl_GVKy_releaseに定義されています。
+ショートカットキーに関連する動作を変更する場合にはそちらをご参照ください。
