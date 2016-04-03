@@ -1,4 +1,9 @@
 # ComicMetaEditor2014
+
+本コードは研究用マンガデータベース
+http://mangaresearch.org
+にて配布している、マンガメタデータ編集用ソフトウェアComicMetaEditorのものです。
+
 本プログラムはOpenSource版のQtを用いて作成されています。
 Qtについては以下のサイトを参照ください。
 http://www.qt.io/
