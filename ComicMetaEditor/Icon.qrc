@@ -1,0 +1,16 @@
+<RCC>
+    <qresource prefix="/icons">
+        <file>icon/RightArrow.png</file>
+        <file>icon/LeftArrow.png</file>
+        <file>icon/ZoomIn.png</file>
+        <file>icon/ZoomOut.png</file>
+        <file>icon/ResetZoom.png</file>
+        <file>icon/OpenFolder.png</file>
+        <file>icon/Scroll.png</file>
+        <file>icon/Config.png</file>
+        <file>icon/Save.png</file>
+        <file>icon/Document.png</file>
+        <file>icon/Glass.png</file>
+        <file>icon/Mouse.png</file>
+    </qresource>
+</RCC>
